@@ -43,7 +43,7 @@ class PtpRouteTest {
     void testHappyFlow() {
         String expected = "A good day to you, sir!";
 
-        producerTemplate.sendBody(mockPtpRouteFrom, expected);
+        producerTemplate.sendBody(mockPtpRouteFrom, "A good day to you, sir!");
 
         String actual = mockPtpRouteTo.getReceivedExchanges().get(0).getIn().getBody(String.class);
         assertEquals(actual, expected);

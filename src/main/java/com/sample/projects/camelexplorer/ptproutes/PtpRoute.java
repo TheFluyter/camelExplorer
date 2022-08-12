@@ -14,7 +14,8 @@ public class PtpRoute extends RouteBuilder {
     public void configure() {
         from(PTP_ROUTE_FROM + "?delete=true")
                 .routeId(ROUTE_ID)
-                .log("Plain PTP route started")
-                .to(PTP_ROUTE_TO);
+                .log("PTP route \"" + ROUTE_ID + "\" picked up a file from " + PTP_ROUTE_FROM)
+                .to(PTP_ROUTE_TO)
+                .log("PTP route \"" + ROUTE_ID + "\" stored a file in " + PTP_ROUTE_FROM);
     }
 }
