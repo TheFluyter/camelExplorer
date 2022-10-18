@@ -1,4 +1,4 @@
-package com.sample.projects.camelexplorer.ptp.routes;
+package com.sample.projects.camelexplorer.routes;
 
 import org.apache.camel.PropertyInject;
 import org.apache.camel.builder.RouteBuilder;

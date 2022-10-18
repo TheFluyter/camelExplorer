@@ -1,5 +1,6 @@
 package com.sample.projects.camelexplorer.ptp.routes;
 
+import com.sample.projects.camelexplorer.routes.PtpRoute;
 import org.apache.camel.*;
 import org.apache.camel.component.mock.MockEndpoint;
 import org.apache.camel.test.spring.junit5.CamelSpringBootTest;
@@ -12,7 +13,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.PropertySource;
 
-import static com.sample.projects.camelexplorer.ptp.routes.PtpRoute.*;
+import static com.sample.projects.camelexplorer.routes.PtpRoute.*;
 import static org.apache.camel.builder.AdviceWith.adviceWith;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

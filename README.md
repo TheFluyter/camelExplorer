@@ -6,7 +6,7 @@
 * [Build and run](https://github.com/TheFluyter/camelExplorer#build-and-run)
 
 ## General information
-This is a sample project to test and play around with the Apache Camel
+This is a sample project to test and play around with the Apache Camel framework
 
 ## Technologies
 * Java
